@@ -1,0 +1,56 @@
+.mainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: lightgrey;
+    width: 750px;
+    height: 450px;
+}
+
+.divMeteo {
+    display: flex;
+    flex-direction: row;
+
+    width: 700px;
+    height: 400px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.divMeteoGauche{
+    width: 350px;
+    height: 400px;
+}
+
+.divMeteoGauche h1{
+    margin: 0px;
+
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.divMeteoGaucheInside1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.divMeteoGaucheInside1 h2:first-child {
+    margin: 0px;
+
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.divMeteoGaucheInside1 h2:last-child {
+    margin: 0px;
+
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.divMeteoDroite{
+    width: 350px;
+    height: 400px;
+}
