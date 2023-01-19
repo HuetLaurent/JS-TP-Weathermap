@@ -3,9 +3,16 @@
     align-items: center;
     justify-content: center;
 
-    background-color: lightgrey;
+    position: absolute;
+    top: 260px;
+    left: 600px;
+
+    background: linear-gradient(to right,#7F7F7F,#CCCCCC 50%, #7F7F7F 50%,#4C4C4C);
     width: 750px;
     height: 450px;
+    box-shadow: 0px 0px 20px black;
+
+    border-radius: 25px;
 }
 
 .divMeteo {
@@ -34,13 +41,17 @@
 .divMeteoGaucheInside1 {
     display: flex;
     flex-direction: column;
+
+    margin-bottom: 35px;
 }
 
 .divMeteoGaucheInside1 h2:first-child {
     margin: 0px;
 
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
+    
+    text-decoration: underline;
 }
 
 .divMeteoGaucheInside1 h2:last-child {
@@ -50,7 +61,103 @@
     font-weight: 100;
 }
 
+.divMeteoGauche h2{
+    margin: 0px;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.divMeteoGauche h3{
+    margin: 0px;
+
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.divMeteoGaucheInside2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0px;
+    margin-top: 20px;
+
+    background-color: #4C4C4C;
+    width: 150px;
+    height: 150px;
+
+    border-radius: 100%;
+}
+
+.arrow {
+    background-image: url(./arrow.png);
+    width: 75px;
+    height: 75px;
+
+    transform: rotate(0deg);
+}
+
+.divMeteoDroite{
+    margin: 0px;
+    padding-left: 50px;
+}
+
+.divMeteoDroite h1{
+    margin: 0px;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.divMeteoDroite h2{
+    margin: 0px;
+
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.timeZone{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    margin-top: 20px;
+}
+
+.timeZone h1{
+    margin: 0px;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.timeZone h2{
+    margin: 0px;
+
+    font-size: 30px;
+    font-weight: 100;
+}
+
 .divMeteoDroite{
     width: 350px;
     height: 400px;
+}
+
+.temperature{
+    margin-bottom: 50px;
+}
+
+.temperature h1{
+    margin: 0px;
+
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.temperature h2{
+    margin: 0px;
+
+    font-size: 20px;
+    font-weight: 100;
 }

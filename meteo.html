@@ -16,19 +16,38 @@
    
     <label for="location">Entrez le nom de la ville :</label>
     <input type="text" id="location" name="ville">
-    <button id="btnLocation">Recherche</button>
+    <button id="btnLocation">Search</button>
 
     <div class="mainDiv">
         <div class="divMeteo">
-            <div class="divMeteoGauche">
+
+            <div id="divUne" class="divMeteoGauche">
                 <h1 id="ville"></h1>
                 <div class="divMeteoGaucheInside1">
                     <h2 id="meteo1"></h2>
                     <h2 id="meteo2"></h2>
                 </div>
+                <h2 id="wind"></h2>
+                <h3 id="deg"></h3>
+                <h3 id="speed"></h3>
+                <div class="divMeteoGaucheInside2">
+                    <div class="arrow" id="arrow"></div>
+                </div>
             </div>
+
             <div class="divMeteoDroite">
-                <h1 id="time"></h1>
+                <div class="temperature">
+                    <h1 id="temperature1"></h1>
+                    <h2 id="temperature2"></h2>
+                </div>
+                <h1 id="coordinate"></h1>
+                <h2 id="coordinate1"></h2>
+                <h2 id="coordinate2"></h2>
+                <div class="timeZone">
+                    <h1 id="timeZ"></h1>
+                    <h2 id="timeZone"></h2>
+                </div>
+
             </div>
         </div>
     </div class="mainDiv">
